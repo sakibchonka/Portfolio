@@ -3,76 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohammed Saqib - iOS Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="description" content="Mohammed Saqib's Portfolio">
+  <title>Mohammed Saqib | iOS Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Mohammed Saqib</h1>
-    <p>iOS Developer</p>
-    <nav>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <div class="theme-toggle">
+        <input type="checkbox" id="toggle-dark-mode">
+        <label for="toggle-dark-mode">🌙</label>
+      </div>
+      <h1>Mohammed Saqib</h1>
+      <p>iOS Developer | Passionate About Clean Code & User-Centric Apps</p>
+      <div class="social-links">
+        <a href="https://github.com/sakibchonka" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/mohammed-saqib-3778b716a/" target="_blank">LinkedIn</a>
+        <a href="https://leetcode.com/u/sakibchonka/" target="_blank">LeetCode</a>
+      </div>
+    </div>
   </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>Highly motivated iOS Developer with around 3 years of experience. Skilled in Swift, Objective-C, MVC, MVVM, REST APIs, and cross-functional team collaboration. Seeking new challenges to continue growing professionally.</p>
+  <section id="about" class="section-light">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm an iOS Developer with a passion for creating intuitive and user-friendly mobile applications. I have 3+ years of experience building apps using Swift and SwiftUI, and I focus on clean, maintainable code.</p>
+    </div>
   </section>
 
-  <section id="skills" class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Swift, Objective-C, C, C++</li>
-      <li>UIKit, SwiftUI, Core Graphics, AVFoundation</li>
-      <li>REST APIs, Firebase, CocoaPods</li>
-      <li>MVC, MVVM, MVP, Singleton Patterns</li>
-      <li>Xcode, Instruments, Git, Jira, Jenkins</li>
-    </ul>
+  <section id="skills" class="section-white">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Swift</li>
+        <li>SwiftUI</li>
+        <li>Firebase</li>
+        <li>REST APIs</li>
+        <li>UI/UX Design</li>
+        <li>Version Control (Git)</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="experience" class="experience">
-    <h2>Experience</h2>
-    <h3>Engineer - Hughes Systique Pvt Ltd (Adobe Client)</h3>
-    <p>April 2023 – Present</p>
-    <ul>
-      <li>Lead iOS Developer for Photoshop Express Discover team.</li>
-      <li>Developed QR code editing feature, increasing app downloads by 12%.</li>
-      <li>Enhanced deep linking and navigation through "What’s New" features.</li>
-      <li>Improved APNs integration, boosting real-time notification efficiency by 25%.</li>
-    </ul>
-
-    <h3>Associate Engineer - Hughes Systique Pvt Ltd</h3>
-    <p>July 2022 – March 2023</p>
-    <ul>
-      <li>Developed a personalized recommendation engine improving user engagement.</li>
-      <li>Completed extensive training in iOS advanced programming.</li>
-    </ul>
+  <section id="projects" class="section-light">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project Name 1</h3>
+          <p>A brief description of the project goes here.</p>
+          <a href="https://github.com/sakibchonka/project1" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Name 2</h3>
+          <p>A brief description of the project goes here.</p>
+          <a href="https://github.com/sakibchonka/project2" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="education" class="education">
-    <h2>Education</h2>
-    <p>B.Tech in Computer Science and Engineering, Lovely Professional University, CGPA: 8.64/10 (2018 - 2022)</p>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sakibchonka@gmail.com">sakibchonka@gmail.com</a></p>
-    <p>Mobile: +91-6005727419</p>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/mohammed-saqib-3778b716a/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/sakibchonka" target="_blank">GitHub</a>
-      <a href="https://leetcode.com/u/sakibchonka/" target="_blank">LeetCode</a>
+  <section id="contact" class="section-white">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+      <p>Email: <a href="mailto:sakibchonka@gmail.com">sakibchonka@gmail.com</a></p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Mohammed Saqib. All Rights Reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 Mohammed Saqib. All Rights Reserved.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
