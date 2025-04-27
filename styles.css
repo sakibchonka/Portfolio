@@ -172,3 +172,21 @@
     background: #2c2c2c;
   }
   
+  .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2em;
+    display: inline-block;
+    transition: all 0.3s ease; /* Smooth hover animation */
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.2); /* Zoom in a little on hover */
+    filter: brightness(1.5); /* Make it a bit brighter on hover */
+  }
+  
+  .social-links a img {
+    width: 32px;
+    height: 32px;
+  }  
+  
